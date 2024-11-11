@@ -1,3 +1,13 @@
 body {
     background: #FFFFC5;
 }
+
+header {
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    border: 20px solid #FFB319;
+    padding: 20px;
+    background-color:#CE5937;
+    color:antiquewhite
+}
