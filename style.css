@@ -1,13 +1,27 @@
 body {
     background: #FFFFC5;
+    margin:0; /* removes any default margin for centering*/
+    display: flex;
+    justify-content: center; /*centers whole headder left and right*/
+    /*align-items: center;*/ /* moves img and h1 up and down*/
+    height: 100vh; /* Full viewport height, necessary for vertical center */
 }
 
 header {
-    width: 80%; 
-    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; 
+    /*margin-top: 50px;*/
+    /*margin-right: auto;*/
+    display: flex; /* enables flexbot? moves h1 beside img*/
+    align-items: center; /*vertically center*/
+    justify-content: center; /*horizontally center*/
+    /*line-height: 250px;*/ /*doesnt do anything?*/
     text-align: center;
     border: 20px solid #FFB319;
-    padding: 20px;
+    padding: 2px;
     background-color:#CE5937;
-    color:antiquewhite
+    color: black; /*changes color of h1*/
+    /*position: absolute;*/
+   
 }
