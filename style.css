@@ -2,9 +2,11 @@ body {
     background: #FFFFC5;
     margin:0; /* removes any default margin for centering*/
     display: flex;
-    justify-content: center; /*centers whole headder left and right*/
-    /*align-items: center;*/ /* moves img and h1 up and down*/
+    flex-direction: column; /*stack elements*/
+    justify-content: flex-start; /*centers whole headder left and right*/
+    align-items: center; /* moves img and circle up and down*/
     height: 100vh; /* Full viewport height, necessary for vertical center */
+    padding-top: 20px;
 }
 
 header {
@@ -24,4 +26,9 @@ header {
     color: black; /*changes color of h1*/
     /*position: absolute;*/
    
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
 }
