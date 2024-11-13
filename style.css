@@ -1,14 +1,20 @@
-header {
-    background-color: darkslategray;
-    text-align: center;
-    padding: 20px;
-    color: wheat;
-   
-}
-
 body{
     background-color: black;
-    color:aliceblue;
+    color: wheat;
+}
+ /* Style top block header*/
+header {
+    background-color: darkslategray;
+    text-align: left;
+    padding: 150px;
+    padding-left: 250px;
+    display: block;
+}
+
+/*Style "Ingeborg" and below */
+.mainContent{
+    text-align: left;
+    padding-left: 250px;
 }
 
 /* Style the side navigation */
@@ -24,9 +30,9 @@ body{
   }
   
   
-  /* Side navigation links */
+  /* Side navigation text */
   .sideNav p {
-    color: white;
+    color: wheat;
     padding: 16px;
     text-decoration: none;
     display: block;
