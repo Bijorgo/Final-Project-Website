@@ -1,3 +1,10 @@
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+   
+}
+
 body {
     background: #FFFFC5;
     margin:0; /* removes any default margin for centering*/
@@ -9,24 +16,7 @@ body {
     padding-top: 20px;
 }
 
-header {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%; 
-    /*margin-top: 50px;*/
-    /*margin-right: auto;*/
-    display: flex; /* enables flexbot? moves h1 beside img*/
-    align-items: center; /*vertically center*/
-    justify-content: center; /*horizontally center*/
-    /*line-height: 250px;*/ /*doesnt do anything?*/
-    text-align: center;
-    border: 20px solid #FFB319;
-    padding: 2px;
-    background-color:#CE5937;
-    color: black; /*changes color of h1*/
-    /*position: absolute;*/
-   
-}
+
 
 h1 {
     margin-top: 20px;
