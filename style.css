@@ -12,11 +12,15 @@ header {
 }
 
 /*Style "Ingeborg" and below */
-.mainContent{
+h2{
     text-align: left;
     padding-left: 250px;
 }
 
+.mainContent{
+    padding: 50px;
+    padding-left: 200px;
+}
 /* Style the side navigation */
 .sideNav {
     height: 100%;
