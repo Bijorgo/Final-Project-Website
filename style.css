@@ -4,7 +4,7 @@ body{
 }
  /* Style top block header*/
 header {
-    background-color: darkslategray;
+    background-color: #283B47;
     text-align: left;
     padding: 150px;
     padding-left: 250px;
@@ -34,11 +34,41 @@ h2{
   }
   
   
-  /* Side navigation text */
+  /* Side navigation text, remove once all linnks are in, no place holders */
   .sideNav p {
     color: wheat;
-    padding: 16px;
+    background-color: #243540;
     text-decoration: none;
     display: block;
+    font-size: medium;
+    padding-block: 4px;
   }
+.sideNav a {
+    color: wheat;
+    background-color: #243540;
+    text-decoration: none;
+    display: block;
+    font-size: medium;
+    padding-block: 40px;
+}
+/*link state styling */
+/* unvisited link */
+ /* a:link {
+    background-color: #243540;
+    padding: 4px, 4px;
+    display: inline-block;
 
+  }
+*/
+  
+ /* a:visited {
+    color: #0077b3;
+  }
+  
+  a:hover {
+    color: ;
+  }
+  
+  a:active {
+    color: blue;
+  } */
